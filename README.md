@@ -39,22 +39,22 @@ Antes de executar este script, certifique-se de ter os seguintes pré-requisitos
 
 Siga estas etapas para implantar a instância RDS usando o Terraform:
 
-1. **Clonar Repositório:**
-   ```bash
-   git clone https://github.com/seu/repo.git
-   cd repo
-
-2. **Inicializar o Terraform:**
+1. **Inicializar o Terraform:**
     ```bash
     terraform init
     ```
 
-3. **Revisar o Plano:**
+2. **Revisar o Plano:**
     ```bash
     terraform plan
     ```
 
-4. **terraform apply:**
+3. **Aplicar Alterações:**
     ```bash
     terraform apply
+    ```
+
+4. **Destruir Recursos (Opcional):**
+    ```bash
+    terraform destroy
     ```
